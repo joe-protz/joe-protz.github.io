@@ -114,10 +114,10 @@ body {
   line-height: 1;
 }
 
-ol,
-ul {
+/* ol, */
+/* ul {
   list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -844,7 +844,7 @@ ol li {
 }
 
 ul {
-  list-style: disc;
+  /* list-style: disc; */
   margin: 0 0 0.5rem 0;
   padding-left: 1em;
 }
@@ -1138,6 +1138,7 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-top:3px;
 }
 
 input[type='submit']:hover,
@@ -1785,15 +1786,19 @@ body.is-preload #footer {
   opacity: 0;
 }
 
-img:hover {
+/* img:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.4);
-}
+} */
 .icons {
   max-width: 80%;
   padding-top: 2rem;
 }
 
+.icons img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.4);
+}
 .tooltip {
   display: inline !important;
   position: relative !important;
@@ -1801,7 +1806,7 @@ img:hover {
 
 .tooltip:hover:after {
   background: 0.333 !important;
-  font-size: xx-small;
+  font-size: small;
   background: rgba(0, 0, 0, 0.8) !important;
   border-radius: 5px !important;
   bottom: 70px !important;
