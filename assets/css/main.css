@@ -1819,3 +1819,11 @@ body.is-preload #footer {
   width: auto;
   min-width: 50px;
 }
+
+
+a.button{
+  margin: 2px;
+}
+img{
+  filter: brightness(100%) !important;
+}
